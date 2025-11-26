@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Deadlock Simulator - RAG + Banker Safety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- React & Babel from CDNs -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <div>
+        <h1><span class="logo-dot"></span>Deadlock Simulator</h1>
+        <p>Resource Allocation Graph + Banker Safety &mdash; Interactive Visual Tool</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="root"></div>
+  </main>
+
+  <!-- Our React App (JSX) -->
+  <script type="text/babel" src="app.js"></script>
+</body>
+</html>
